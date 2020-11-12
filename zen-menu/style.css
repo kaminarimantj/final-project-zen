@@ -1,0 +1,59 @@
+h1, h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 5px solid burlywood;
+  padding: 10px;
+  color: indigo;
+}
+
+h3 {
+  color: black;
+}
+
+.preamble {
+  border: 3px dashed grey;
+  margin: 20px;
+}
+
+a {
+  color: grey;
+}
+
+body {
+  background-image: linear-gradient(to bottom, red, rgba(0,0,255,0.5)),url("https://images.unsplash.com/photo-1481882563558-a1b9f5f7744a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(161, 46, 26);
+  text-align: center;
+  color: burlywood;
+  }
+
+.summary {
+    text-align: left;
+  }
+
+div.main {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 1px;
+  grid-auto-rows: minmax(1px, auto);
+}
+
+
+.main [role~="article"]  {
+    overflow: scroll;
+    height: 80%; 
+    width: 80%; 
+    background-color: pink; 
+    color: black; 
+    padding: 5px; 
+    margin: 15px;
+    opacity: 70%;
+    padding: 10px;
+
+  }
+
+
